@@ -1,7 +1,9 @@
-#Exercise 1
+# Exercise 1
+
 ***
 
-##Description
+## Description
+
 You came **here** with the link from the main page [*README.md*](README.md) and you can also go back clicking on the
 blue readme button.
 
@@ -11,8 +13,10 @@ commands and their use.
 You will find a beautiful picture of a smartphone below which I found in unsplash. You will find a link under the
 picture which will guide you to the web site where i found it.
 
-##Picture
+## Picture
+
 ![My Picture](stock.jpg)
 
-##Links
+## Links
+
 For more **free** pictures click -> [**HERE**](https://unsplash.com/)
