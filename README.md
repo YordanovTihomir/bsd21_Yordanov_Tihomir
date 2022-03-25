@@ -50,6 +50,11 @@ Expected to be added a PostgreDB!
 
 ---
 
+## Personal information
+
+- GitHub [Tihomir Yordanov](https://github.com/YordanovTihomir)
+- Campus02 [Home page](https://www.campus02.at/)
+
 ## Examples
 
 - [Exercise1](exercise1.md)
