@@ -20,7 +20,7 @@ different operations - addition, subtraction, multiplication and division.
 The main method in the main class invokes every method of calculator class after
 initialising it.
 
-![mvn-compile-pic](pic/mvn-terminal.PNG)
+![mvn-compile-pic](src/main/resources/images/mvn-terminal.PNG)
 
 ***
 

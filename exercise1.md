@@ -15,7 +15,7 @@ picture which will guide you to the web site where i found it.
 
 ## Picture
 
-![My Picture](stock.jpg)
+![My Picture](mypic.jpg)
 
 ## Links
 
