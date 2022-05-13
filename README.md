@@ -60,7 +60,7 @@ Expected to be added a PostgreDB!
 - [Exercise1](exercise1.md)
 - [Exercise2](exercise2.md)
 - [Exercise3](exercise3.md)
-- [Exercise4]()
+- [Exercise4](exercise4.md)
 - [Exercise5]()
 - [Exercise6]()
 - [Exercise7]()
