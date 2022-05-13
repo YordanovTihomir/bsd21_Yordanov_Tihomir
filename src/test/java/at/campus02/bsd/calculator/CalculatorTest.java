@@ -81,4 +81,13 @@ class CalculatorTest {
         assertEquals(test1, result1, 0.01);
         assertEquals(test2, result2, 0.01);
     }
+
+    @Test
+    @DisplayName("calculate factorial")
+    void factorial(){
+        assertEquals(0,calculator.factorial(-1));
+        assertEquals(0,calculator.factorial(0));
+        assertEquals(120,calculator.factorial(5));
+        assertEquals(1,calculator.factorial(1));
+    }
 }

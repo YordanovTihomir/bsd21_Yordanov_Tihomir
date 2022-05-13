@@ -20,3 +20,12 @@ I made 2 different options for control:
 On the picture is shown that with this test cases I get 100% coverage.
 
 ![coverage](src/main/resources/images/ex4_1.PNG)
+
+***
+
+## Factorial
+
+You can see an error on this picture caused by the reason that the return value 
+is always 0.
+
+![error](src/main/resources/images/ex4_2.PNG)

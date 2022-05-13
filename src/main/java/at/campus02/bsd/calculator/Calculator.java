@@ -19,4 +19,15 @@ public class Calculator {
     public double multiply(double number1, double number2){
         return number1 * number2;
     }
+
+    public long factorial(int n){
+        if (n > 0){
+            long f = 1;
+            for (int i = n; i > 1; i--){
+                f *= i;
+            }return f;
+        }
+        else
+            return 0;
+    }
 }
