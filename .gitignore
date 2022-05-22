@@ -2,6 +2,6 @@
 *.pdf
 
 target/
-.idea/
+.idea
 
-
+*.log
