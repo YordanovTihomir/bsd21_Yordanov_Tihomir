@@ -1,4 +1,4 @@
-package at.campus02.bsd.calculator;
+package at.campus02.bsd;
 
 public class Calculator {
 

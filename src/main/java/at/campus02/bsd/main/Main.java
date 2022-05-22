@@ -1,6 +1,6 @@
 package at.campus02.bsd.main;
 
-import at.campus02.bsd.calculator.Calculator;
+import at.campus02.bsd.Calculator;
 
 public class Main {
     public static void main(String[] args) {
