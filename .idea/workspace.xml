@@ -5,14 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3dded31-e21a-4c6f-8c68-e8b61d7417f2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsd21_yordanov_tihomir.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bsd21_yordanov_tihomir.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/campus02/bsd/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/campus02/bsd/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/at/campus02/bsd/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/campus02/bsd/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/at/campus02/bsd/calculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at/campus02/bsd/calculator/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,7 +45,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tyord\Desktop\Konfig_Management\bsd21_yordanov_tihomir\src\main\resources" />
+      <recent name="C:\Users\tyord\Desktop\Konfig_Management\bsd21_yordanov_tihomir\.idea" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CalculatorTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="at.campus02.bsd.main.Main" />
       <module name="bsd21_yordanov_tihomir" />
@@ -48,9 +65,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bsd21_yordanov_tihomir" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.campus02.bsd.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.campus02.bsd.calculator" />
+      <option name="MAIN_CLASS_NAME" value="at.campus02.bsd.calculator.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bsd21_yordanov_tihomir" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.campus02.bsd.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.campus02.bsd.calculator" />
+      <option name="MAIN_CLASS_NAME" value="at.campus02.bsd.calculator.CalculatorTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.divide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bsd21_yordanov_tihomir" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.campus02.bsd.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.campus02.bsd.calculator" />
+      <option name="MAIN_CLASS_NAME" value="at.campus02.bsd.calculator.CalculatorTest" />
+      <option name="METHOD_NAME" value="divide" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.CalculatorTest.add" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.CalculatorTest.divide" />
       </list>
     </recent_temporary>
   </component>
@@ -62,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653212432017</updated>
-      <workItem from="1653212454170" duration="2779000" />
+      <workItem from="1653212454170" duration="14193000" />
     </task>
     <servers />
   </component>
@@ -70,10 +137,61 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="logging" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="date">
+                    <value>
+                      <list>
+                        <option value="1653129018193" />
+                        <option value="" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="logging" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/bsd21_yordanov_tihomir$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1652463899061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>at.campus02.bsd.calculator.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/bsd21_yordanov_tihomir$CalculatorTest_divide.ic" NAME="CalculatorTest.divide Coverage Results" MODIFIED="1653216089361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>at.campus02.bsd.calculator.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/bsd21_yordanov_tihomir$CalculatorTest_add.ic" NAME="CalculatorTest.add Coverage Results" MODIFIED="1652457681614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

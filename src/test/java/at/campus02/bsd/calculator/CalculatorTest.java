@@ -3,6 +3,8 @@ package at.campus02.bsd.calculator;
 import at.campus02.bsd.Calculator;
 import org.junit.jupiter.api.*;
 
+import java.io.IOException;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class CalculatorTest {
@@ -11,7 +13,7 @@ class CalculatorTest {
     double test1,test2,result1,result2;
 
     @BeforeEach
-    public void setup(){
+    public void setup() throws IOException {
         calculator = new Calculator();
     }
 
@@ -47,7 +49,7 @@ class CalculatorTest {
     }
 
     @Test
-    @DisplayName("Divide 2 numbers if 0 print string")
+    @DisplayName("Divide 2 numbers")
     void divide() {
         result1 = calculator.divide(6,10);
         result2 = calculator.divide(10.2,5);
@@ -59,7 +61,9 @@ class CalculatorTest {
         test2 = 2.04;
         assertEquals(test1, result1, 0.01);
         assertEquals(test2, result2, 0.01);
-        assertEquals(0, calculator.divide(1,0));
+        assertThrows(ArithmeticException.class, () -> {
+            calculator.divide(5, 0);
+        });
     }
 
     @Test

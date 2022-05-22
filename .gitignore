@@ -2,6 +2,10 @@
 *.pdf
 
 target/
-.idea
+.idea/
 
+*.xml
+
+logs/
 *.log
+*.properties
