@@ -1,14 +1,17 @@
-package at.campus02.bsd.main;
+package at.campus02.bsd;
 
-import at.campus02.bsd.Calculator;
-import org.apache.logging.log4j.Level;
-import org.apache.logging.log4j.core.config.Configurator;
-
-import java.io.IOException;
-
+/**
+ * Main Class which contains main-method
+ * @author Tihomir Yordanov
+ */
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+    /**
+     * Main method to start the program
+     * @param args program arguments (could be empty)
+     * @throws ArithmeticException if number is divided by 0 => IGNORED
+     */
+    public static void main(String[] args) {
 //        Configurator.setRootLevel(Level.DEBUG);
 
         Calculator calculator = new Calculator();
