@@ -7,16 +7,26 @@ import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * test class for calculator class
+ */
 class CalculatorTest {
 
     Calculator calculator;
     double test1,test2,result1,result2;
 
+    /**
+     * Set an instance of calculator everytime when test is started
+     */
     @BeforeEach
-    public void setup() throws IOException {
+    public void setup(){
         calculator = new Calculator();
     }
 
+    /**
+     * Test with name "Add 2 numbers" checking method add(n1,n2)
+     * covers 100%
+     */
     @Test
     @DisplayName("Add 2 numbers")
     void add() {
@@ -33,6 +43,11 @@ class CalculatorTest {
 
     }
 
+
+    /**
+     * Test with name "Subtract 2 numbers" checking method minus(n1,n2)
+     * covers 100%
+     */
     @Test
     @DisplayName("Subtract 2 numbers")
     void minus() {
@@ -48,6 +63,10 @@ class CalculatorTest {
         assertEquals(test2, result2, 0.01);
     }
 
+    /**
+     * Test with name "Divide 2 numbers" checking method divide(n1,n2)
+     * covers 100%
+     */
     @Test
     @DisplayName("Divide 2 numbers")
     void divide() {
@@ -66,6 +85,11 @@ class CalculatorTest {
         });
     }
 
+
+    /**
+     * Test with name "multiply 2 numbers" checking method multiply(n1,n2)
+     * covers 100%
+     */
     @Test
     @DisplayName("multiply 2 numbers ")
     void multiply() {
@@ -81,6 +105,10 @@ class CalculatorTest {
         assertEquals(test2, result2, 0.01);
     }
 
+    /**
+     * Test with name "calculate factorial" checking method factorial(n1,n2)
+     * covers 100%
+     */
     @Test
     @DisplayName("calculate factorial")
     void factorial(){
