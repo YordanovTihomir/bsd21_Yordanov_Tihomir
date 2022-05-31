@@ -50,3 +50,5 @@ For detailed information and more commands check [GIT CHEAT SHEET - GitHub Educa
 
 * upload the commits from local repository to a remote repository.  
   ![git_push_pic](src/main/resources/images/push.PNG)
+
+[**Return to README**](README.md)

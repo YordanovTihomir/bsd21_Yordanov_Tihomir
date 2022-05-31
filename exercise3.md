@@ -24,4 +24,4 @@ initialising it.
 
 ***
 
-**To view all my works click** [**HERE**](README.md)
+[**Return to README**](README.md)
